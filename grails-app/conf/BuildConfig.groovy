@@ -44,6 +44,7 @@ grails.project.dependency.resolution = {
         //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
         //mavenRepo "http://repository.jboss.com/maven2/"
+		mavenRepo "https://raw.github.com/uberall/uberall-plugins/mvn-repo" //Because of plugin asset-autoprefixer
     }
 
     dependencies {
@@ -76,6 +77,7 @@ grails.project.dependency.resolution = {
 
 		provided ":sass-asset-pipeline:2.3.1"
 		compile ":asset-autoprefixer:1.2.0"
+		compile ":less-asset-pipeline:2.3.0"
 
     }
 }
