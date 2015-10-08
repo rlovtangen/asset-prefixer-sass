@@ -76,7 +76,7 @@ grails.project.dependency.resolution = {
         //compile ":handlebars-asset-pipeline:1.3.0.3"
 
 		provided ":sass-asset-pipeline:2.3.1"
-		compile ":asset-autoprefixer:1.2.0"
+		compile ":asset-autoprefixer:1.3.0"
 		compile ":less-asset-pipeline:2.3.0"
 
     }
