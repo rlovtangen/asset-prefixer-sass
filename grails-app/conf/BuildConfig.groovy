@@ -61,7 +61,7 @@ grails.project.dependency.resolution = {
         compile ":scaffolding:2.1.2"
         compile ':cache:1.1.8'
         // asset-pipeline 2.0+ requires Java 7, use version 1.9.x with Java 6
-        compile ":asset-pipeline:2.2.3"
+        compile ":asset-pipeline:2.5.7"
 
         // plugins needed at runtime but not for compilation
         runtime ":hibernate4:4.3.10" // or ":hibernate:3.6.10.18"
@@ -73,5 +73,9 @@ grails.project.dependency.resolution = {
         //compile ":less-asset-pipeline:1.10.0"
         //compile ":coffee-asset-pipeline:1.8.0"
         //compile ":handlebars-asset-pipeline:1.3.0.3"
+
+		provided ":sass-asset-pipeline:2.3.1"
+		compile ":asset-autoprefixer:1.2.0"
+
     }
 }
